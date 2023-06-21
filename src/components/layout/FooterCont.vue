@@ -128,6 +128,7 @@
 </template>
 
 <style lang="scss">
+@import "../../assets/scss/setting/mixins.scss";
 // footer__inner
 .footer__inner {
   display: flex;

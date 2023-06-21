@@ -35,6 +35,7 @@
   </header>
 </template>
 <style lang="scss">
+@import "../../assets/scss/setting/mixins.scss";
 // header__wrap
 .header__inner {
   text-align: center;

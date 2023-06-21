@@ -86,6 +86,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../assets/scss/setting/mixins.scss";
 // mv__wrap
 .mv__wrap {
 }

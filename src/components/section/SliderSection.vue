@@ -100,14 +100,16 @@ export default {
 };
 </script>
 <style lang="scss">
+@import "../../assets/scss/setting/mixins.scss";
 .swiper {
   overflow: visible;
+  padding: 120px 0;
 }
 .swiper-pagination {
   bottom: -80px !important;
 }
 .slider__inner {
-  // overflow: hidden;
+  overflow: hidden;
   position: relative;
   .slider__img {
     .slider {
