@@ -1,24 +1,9 @@
 # site-vue01
 
-## Project setup
-```
-npm install
-```
+## vue.js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+vue.js를 이용해서 사이트를 마들어 보았습니다.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vue3 버전을 설치했고,
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- swiper를 사용해서 이미지 슬라이드를 구현했습니다.
