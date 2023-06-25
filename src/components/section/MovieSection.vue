@@ -7,7 +7,7 @@
           음악은 우리의 삶을 아름답게 만듭니다.<br />음악이 주는 힘을 영화를
           통해 더욱 깊이 경험해보세요!
         </p>
-        <router-link to="/" class="button-blue">자세히 보기</router-link>
+        <router-link to="/movie" class="button-blue">자세히 보기</router-link>
       </div>
       <div class="movie__item">
         <div>

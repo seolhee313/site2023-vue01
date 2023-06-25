@@ -7,7 +7,7 @@
           음악의 다양한 매력을 느끼게 해주는<br />음악을 사랑하는 이들을 위한
           열정이 가득한 유튜버들을 만나보세요.
         </p>
-        <router-link to="/" class="button-red">자세히 보기</router-link>
+        <router-link to="/youtube" class="button-red">자세히 보기</router-link>
       </div>
       <div class="youtube__item">
         <div>

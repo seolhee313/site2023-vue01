@@ -8,7 +8,9 @@
           <br />
           상업적 이용은 피해주세요!
         </p>
-        <router-link to="/" class="button-green"> 자세히 보기 </router-link>
+        <router-link to="/unsplash" class="button-green">
+          자세히 보기
+        </router-link>
       </div>
       <div class="unsplash__item">
         <div>

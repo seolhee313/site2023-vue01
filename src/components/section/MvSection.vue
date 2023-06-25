@@ -7,10 +7,9 @@
     <div class="mv__inner container">
       <div class="mv__btn">
         <ul>
-          <li><router-link to="/" class="active">K-pop</router-link></li>
-          <li><router-link to="/">Pop</router-link></li>
-          <li><router-link to="/">Hip-hop</router-link></li>
-          <li><router-link to="/">R&B</router-link></li>
+          <li>
+            <router-link to="/mv" class="">더 많은 MV 보러가기</router-link>
+          </li>
         </ul>
       </div>
       <div class="mv__conts">
@@ -104,18 +103,21 @@ export default {
         a {
           border: 1px solid #000;
           display: inline-block;
-          padding: 5px 20px;
+          padding: 10px 30px;
           margin: 0 5px;
           border-radius: 40px;
           transition: background-color 0.3s;
+          background-color: #c8d8ff;
+          color: #000;
 
           &.active {
             // border-width: 2px;
-            background-color: #83a5f9;
-            color: var(--color_white);
+            // background-color: #83a5f9;
+            // color: var(--color_white);
           }
           &:hover {
-            background-color: #c8d8ff;
+            background-color: #83a5f9;
+            color: var(--color_white);
           }
         }
       }

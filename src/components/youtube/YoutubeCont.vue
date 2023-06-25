@@ -2,8 +2,14 @@
   <div class="youtube__cont container">
     <ul>
       <li v-for="(youtube, index) in youtubes" :key="index">
-        <img :src="youtube.snippet.thumbnails.medium.url" alt="youtube" />
-        <span>{{ youtube.snippet.title }}</span>
+        <a
+          :href="'https://www.youtube.com/watch?v=' + youtube.id.videoId"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img :src="youtube.snippet.thumbnails.medium.url" alt="유튜브" />
+          <span>{{ decodeHTMLEntities(youtube.snippet.title) }}</span>
+        </a>
       </li>
     </ul>
   </div>
@@ -15,6 +21,34 @@ export default {
     youtubes: {
       type: Array,
       required: true,
+    },
+  },
+  methods: {
+    decodeHTMLEntities(text) {
+      const entities = {
+        "&amp;": "&",
+        "&#38;": "&",
+        "&#x26;": "&",
+        "&lt;": "<",
+        "&#60;": "<",
+        "&#x3C;": "<",
+        "&gt;": ">",
+        "&#62;": ">",
+        "&#x3E;": ">",
+        "&quot;": '"',
+        "&#34;": '"',
+        "&#x22;": '"',
+        "&#x27;": "'",
+        "&#39;": "'",
+        "&#x2019;": "'", // Added entity for apostrophe (’)
+        "&#x201C;": '"', // Added entity for left double quotation mark (“)
+        "&#x201D;": '"', // Added entity for right double quotation mark (”)
+      };
+
+      return text.replace(
+        /&(amp|lt|gt|quot|#34|#x22|#x27|#39|#x2019|#x201C|#x201D);/g,
+        (match) => entities[match]
+      );
     },
   },
 };
@@ -49,7 +83,7 @@ export default {
   }
 }
 
-.movie__tag {
+.youtube__tag {
   ul {
     display: flex;
     justify-content: center;

@@ -5,20 +5,17 @@
     role="heading"
     aria-level="1"
   >
-    <div class="header__inner container">
+    <div class="header__inner score5 container">
       <h1 class="header__logo">
         <router-link to="/"> seolhee <em>site</em></router-link>
       </h1>
       <nav class="header__nav" role="navigation">
         <ul>
           <li>
-            <router-link to="/intro">소개</router-link>
+            <router-link to="/intro">아티스트</router-link>
           </li>
           <li>
-            <router-link to="/member">멤버</router-link>
-          </li>
-          <li>
-            <router-link to="/mv">뮤직비디오</router-link>
+            <router-link to="/mv">MV</router-link>
           </li>
           <li>
             <router-link to="/youtube">유튜브</router-link>

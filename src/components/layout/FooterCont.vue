@@ -1,5 +1,9 @@
 <template>
-  <footer id="footer" class="footer__wrap score5 section" role="contentinfo">
+  <footer
+    id="footer"
+    class="footer__wrap score5 section bg-green"
+    role="contentinfo"
+  >
     <div class="footer__inner container">
       <div class="footer__text">
         <h5>SEOLHEEONE</h5>
