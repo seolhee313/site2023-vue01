@@ -1,9 +1,9 @@
-## vue.js
-
-![image](https://github.com/seolhee313/site2023-vue01/assets/125417882/8a961c73-70f1-408f-b5bd-bd54bc47b287)
+## Vue.js
 
 youtube, movie와 같은 restful API를 postman사이트를 이용하여 데이터를 분류하고 그 중에서 원하는 데이터만 가져와서 사용했습니다.<br>
 prettier, eslint를 이용해 문법에 오류가 없도록 작업하며 코드정리를 하였습니다.
+
+![image](https://github.com/seolhee313/site2023-vue01/assets/125417882/8a961c73-70f1-408f-b5bd-bd54bc47b287)
 
 - Live Demo : https://sitecheon-vue01.netlify.app/
 - 작업 기간 : 2일
