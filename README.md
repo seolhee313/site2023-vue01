@@ -1,4 +1,4 @@
-## Vue.js
+## 🎵Vue.js
 
 youtube, movie와 같은 restful API를 postman사이트를 이용하여 데이터를 분류하고 그 중에서 원하는 데이터만 가져와서 사용했습니다.<br>
 prettier, eslint를 이용해 문법에 오류가 없도록 작업하며 코드정리를 하였습니다.
@@ -13,12 +13,14 @@ prettier, eslint를 이용해 문법에 오류가 없도록 작업하며 코드�
 - vue 3.2.13
 - sass 1.32.7
 - swiper 8.4.7
+- vue-router 4.0.3
 
 ## 특징
 
-- [YOUTUBE](https://console.cloud.google.com/apis/) API
-- [UNSPLASH](https://www.postman.com/downloads/) API
-- [MOVIE](https://www.themoviedb.org/?language=ko) API
+- [YOUTUBE](https://console.cloud.google.com/apis/) API를 이용한 목록, 검색 기능 구현
+- [UNSPLASH](https://www.postman.com/downloads/) API를 이용한 목록, 검색, 이미지 슬라이드 구현
+- [MOVIE](https://www.themoviedb.org/?language=ko) API를 이용한, 목록, 검색, 이미지 슬라이드 구현
+- swiper 이미지 슬라이드 구현
 
 ## 학습
 
